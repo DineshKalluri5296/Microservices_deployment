@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-    name: order-service
+    name: order-services
 spec:
     type: LoadBalancer
     selector:
