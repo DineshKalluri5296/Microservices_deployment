@@ -26,7 +26,7 @@ jobs:
 
     - name: Deploy to Kubernetes
       run: |
-        kubectl apply -f product-deployment.yaml
-        kubectl apply -f product-service.yaml
-        kubectl apply -f orderdeployment.yaml
-        kubectl apply -f order-service.yaml
+        kubectl apply -f productdeployments.yaml
+        kubectl apply -f productservices.yaml
+        kubectl apply -f orderdeployments.yaml
+        kubectl apply -f orderservices.yaml
